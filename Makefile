@@ -1,5 +1,6 @@
 build:
-	go build. -o bin/hncache
+	mkdir -p bin
+	go build -o bin/hncache .
 
-run:
+run: build
 	./bin/hncache
