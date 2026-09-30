@@ -1,0 +1,10 @@
+# Build output
+/bin/
+
+# Go test and profiling artifacts
+*.test
+*.out
+*.prof
+
+# macOS
+.DS_Store
